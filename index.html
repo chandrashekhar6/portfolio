@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Pinninti Chandrasekhar — Aspiring Software Engineer skilled in Python, Data Analytics, and Full Stack Development. B.Tech CSE at LPU." />
+  <meta name="keywords" content="Pinninti Chandrasekhar, portfolio, software engineer, Python, data analytics, LPU, computer science" />
+  <meta name="theme-color" content="#0a0a0f" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Pinninti Chandrasekhar | Portfolio" />
+  <meta property="og:description" content="Aspiring Software Engineer — Python, Data Analytics, Full Stack Development" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="profile.png" />
+  <meta name="twitter:card" content="summary" />
+  <title>Pinninti Chandrasekhar | Portfolio</title>
+  <link rel="icon" type="image/png" href="profile.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ─── NAVBAR ─── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">PC<span class="dot">.</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#training">Training</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <p class="hero-greeting">👋 Hello, I'm</p>
+      <h1 class="hero-name">Pinninti <span class="accent">Chandrasekhar</span></h1>
+      <div class="hero-typewriter">
+        <span id="typewriter"></span><span class="cursor">|</span>
+      </div>
+      <p class="hero-tagline">
+        Turning data into insights &amp; ideas into working software.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+        <!-- TODO: Replace 'resume.pdf' with your actual resume file -->
+        <a href="resume.pdf" download class="btn btn-outline"><i class="fas fa-download"></i> Resume</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/chandrashekhar6" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/chandrasekar-pinninti" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:chandrasekharpinninti96@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="hero-avatar">
+      <div class="avatar-ring">
+        <div class="avatar-inner">
+          <img src="profile.png" alt="Pinninti Chandrasekhar" class="avatar-photo" />
+        </div>
+      </div>
+      <div class="avatar-badge"><i class="fas fa-code"></i> Aspiring Software Engineer</div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ─── -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-label">Get To Know Me</div>
+      <h2 class="section-title">About <span class="accent">Me</span></h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a <strong>Computer Science &amp; Engineering student</strong> at Lovely Professional University, Punjab,
+            passionate about building efficient software solutions and uncovering hidden insights from data.
+          </p>
+          <p>
+            I'm an organized, hardworking, and curious problem-solver who loves exploring new ideas — from automating
+            tedious tasks with Python scripts to building interactive dashboards that drive decisions.
+          </p>
+          <p>
+            Beyond the screen, I'm a <strong>karate gold medalist</strong> 🥋 and a hackathon participant, which reflects
+            my drive, discipline, and love for challenges both physical and intellectual.
+          </p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-number">4+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">6+</span>
+              <span class="stat-label">Certifications</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">70hrs</span>
+              <span class="stat-label">Live Training</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">🥇</span>
+              <span class="stat-label">Karate Gold</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-info-cards">
+          <div class="info-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <span class="info-label">Location</span>
+              <span class="info-value">Phagwara, Punjab, India</span>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-graduation-cap"></i>
+            <div>
+              <span class="info-label">University</span>
+              <span class="info-value">LPU, Punjab (B.Tech CSE)</span>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <span class="info-label">Email</span>
+              <span class="info-value">chandrasekharpinninti96@gmail.com</span>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fab fa-github"></i>
+            <div>
+              <span class="info-label">GitHub</span>
+              <span class="info-value">chandrashekhar6</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SKILLS ─── -->
+  <section class="section section-dark" id="skills">
+    <div class="container">
+      <div class="section-label">What I Know</div>
+      <h2 class="section-title">My <span class="accent">Skills</span></h2>
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <i class="fas fa-code"></i>
+            <h3>Programming Languages</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag tag-primary">Python</span>
+            <span class="skill-tag tag-primary">SQL</span>
+            <span class="skill-tag tag-primary">DSA</span>
+            <span class="skill-tag tag-primary">HTML</span>
+            <span class="skill-tag tag-primary">CSS</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <i class="fas fa-layer-group"></i>
+            <h3>Libraries & Frameworks</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag tag-secondary">NumPy</span>
+            <span class="skill-tag tag-secondary">Pandas</span>
+            <span class="skill-tag tag-secondary">Matplotlib</span>
+            <span class="skill-tag tag-secondary">Seaborn</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <i class="fas fa-tools"></i>
+            <h3>Tools & Platforms</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag tag-tertiary">Power BI</span>
+            <span class="skill-tag tag-tertiary">MySQL</span>
+            <span class="skill-tag tag-tertiary">VS Code</span>
+            <span class="skill-tag tag-tertiary">Jupyter Notebook</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <i class="fas fa-brain"></i>
+            <h3>Soft Skills</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag tag-soft">Problem-Solving</span>
+            <span class="skill-tag tag-soft">Team Collaboration</span>
+            <span class="skill-tag tag-soft">Project Management</span>
+            <span class="skill-tag tag-soft">Adaptability</span>
+            <span class="skill-tag tag-soft">Creativity</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS ─── -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-label">What I've Built</div>
+      <h2 class="section-title">My <span class="accent">Projects</span></h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-card-top">
+            <div class="project-icon"><i class="fas fa-chart-pie"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/chandrashekhar6" target="_blank" rel="noopener noreferrer" aria-label="Link"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <span class="project-date">Apr 2025</span>
+          <h3 class="project-title">EV Data Analysis Dashboard</h3>
+          <p class="project-description">
+            Developed an interactive Power BI dashboard to analyze Electric Vehicle trends and adoption.
+            Visualized BEV vs PHEV distribution, state-wise analysis, and model performance.
+            Created and optimized data models by establishing relationships between multiple datasets.
+          </p>
+          <div class="project-stack">
+            <span>Power BI</span>
+            <span>Data Visualization</span>
+            <span>KPI Design</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-top">
+            <div class="project-icon"><i class="fas fa-chart-bar"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/chandrashekhar6" target="_blank" rel="noopener noreferrer" aria-label="Link"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <span class="project-date">Apr 2025</span>
+          <h3 class="project-title">Data Analysis using Pandas &amp; NumPy</h3>
+          <p class="project-description">
+            Performed data cleaning and preprocessing using Pandas on real-world datasets. Utilized NumPy for
+            efficient numerical computations and conducted exploratory data analysis (EDA) to identify trends.
+            Visualized insights beautifully using Matplotlib and Seaborn.
+          </p>
+          <div class="project-stack">
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>NumPy</span>
+            <span>Matplotlib</span>
+            <span>Seaborn</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── EDUCATION ─── -->
+  <section class="section section-dark" id="education">
+    <div class="container">
+      <div class="section-label">Academic Background</div>
+      <h2 class="section-title">My <span class="accent">Education</span></h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-icon"><i class="fas fa-university"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Aug 2023 – Present</span>
+              <h3>B.Tech – Computer Science &amp; Engineering</h3>
+              <p class="timeline-org">Lovely Professional University, Phagwara, Punjab</p>
+              <span class="timeline-badge">CGPA: 6.1</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-icon"><i class="fas fa-school"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Apr 2021 – Mar 2023</span>
+              <h3>Intermediate (Class XII)</h3>
+              <p class="timeline-org">Sanjeevi Junior College, Visakhapatnam, Andhra Pradesh</p>
+              <span class="timeline-badge">76.2%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-icon"><i class="fas fa-book"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Apr 2020 – Mar 2021</span>
+              <h3>Matriculation (Class X)</h3>
+              <p class="timeline-org">Success School, Kosta, Andhra Pradesh</p>
+              <span class="timeline-badge">98%</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── TRAINING ─── -->
+  <section class="section" id="training">
+    <div class="container">
+      <div class="section-label">Professional Development</div>
+      <h2 class="section-title">My <span class="accent">Training</span></h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-icon"><i class="fab fa-python"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Nov 2025</span>
+              <h3>Python Development: OOPs Concept</h3>
+              <p class="timeline-org">CSE Cipher schools</p>
+              <ul style="margin-top: 0.75rem; color: var(--text-muted); font-size: 0.88rem; padding-left: 1.25rem;">
+                <li style="margin-bottom: 0.4rem;">Completed 70 hours of live summer training in Python development, understanding core object-oriented programming concepts.</li>
+                <li style="margin-bottom: 0.4rem;">Practiced problem-solving exercises and implemented object-oriented principles to strengthen logical and analytical skills.</li>
+                <li>Applied structured programming approaches developing projects to write clear, organized, and efficient code.</li>
+              </ul>
+              <div class="project-stack" style="margin-top: 0.85rem;">
+                <span>Control Structures</span>
+                <span>OOPs</span>
+                <span>Modules</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CERTIFICATIONS ─── -->
+  <section class="section section-dark" id="certifications">
+    <div class="container">
+      <div class="section-label">Credentials & Training</div>
+      <h2 class="section-title">Certifications &amp; <span class="accent">Achievements</span></h2>
+      <div class="certs-grid">
+
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-chart-line"></i></div>
+          <div class="cert-content">
+            <span class="cert-issuer">Deloitte</span>
+            <h3>Data Analytics Job Simulation</h3>
+            <span class="cert-date">Nov 2025</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fab fa-python"></i></div>
+          <div class="cert-content">
+            <span class="cert-issuer">Cipher School</span>
+            <h3>Python Development</h3>
+            <span class="cert-date">Jul 2025</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-laptop-code"></i></div>
+          <div class="cert-content">
+            <span class="cert-issuer">neoColab</span>
+            <h3>C++ with Data Structures</h3>
+            <span class="cert-date">Dec 2024</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fab fa-html5"></i></div>
+          <div class="cert-content">
+            <span class="cert-issuer">freeCodeCamp</span>
+            <h3>Responsive Web Design</h3>
+            <span class="cert-date">Nov 2023</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-cloud"></i></div>
+          <div class="cert-content">
+            <span class="cert-issuer">Oracle</span>
+            <h3>Data Platform and Cloud Technology</h3>
+            <span class="cert-date">Certified</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── ACHIEVEMENTS ─── -->
+  <section class="section" id="achievements">
+    <div class="container">
+      <div class="section-label">Extracurriculars</div>
+      <h2 class="section-title">My <span class="accent">Achievements</span></h2>
+      <div class="extras-row" style="grid-template-columns: 1fr;">
+        <div class="extra-card" style="max-width: 600px;">
+          <i class="fas fa-terminal"></i>
+          <div>
+            <h4>CODE-A-HAUNT Hackathon</h4>
+            <span class="cert-date" style="display: block; margin-bottom: 0.3rem;">Feb 2024</span>
+            <p>Participated in Hackathon Organized by Code Blocks LPU</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ─── -->
+  <section class="section section-dark" id="contact">
+    <div class="container">
+      <div class="section-label">Get In Touch</div>
+      <h2 class="section-title">Contact <span class="accent">Me</span></h2>
+      <div class="contact-grid">
+
+        <div class="contact-info">
+          <p class="contact-intro">
+            I'm actively looking for <strong>internships and placement opportunities</strong>.
+            Whether you have a project, opportunity, or just want to connect — my inbox is always open!
+          </p>
+          <div class="contact-items">
+            <a href="mailto:chandrasekharpinninti96@gmail.com" class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>chandrasekharpinninti96@gmail.com</span>
+            </a>
+            <a href="tel:+917719733775" class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+91-7719733775</span>
+            </a>
+            <a href="https://github.com/chandrashekhar6" target="_blank" rel="noopener noreferrer" class="contact-item">
+              <i class="fab fa-github"></i>
+              <span>github.com/chandrashekhar6</span>
+            </a>
+            <a href="https://www.linkedin.com/in/chandrasekar-pinninti" target="_blank" rel="noopener noreferrer" class="contact-item">
+              <i class="fab fa-linkedin-in"></i>
+              <span>linkedin.com/in/chandrasekar-pinninti</span>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Internship Opportunity / Collaboration" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about the opportunity or just say hi!" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="footer">
+    <div class="footer-content">
+      <span class="footer-logo">PC<span class="dot">.</span></span>
+      <p>Designed &amp; Built by <strong>Pinninti Chandrasekhar</strong></p>
+      <p class="footer-copy">© <span id="footerYear">2026</span> · All Rights Reserved</p>
+      <div class="footer-socials">
+        <a href="https://github.com/chandrashekhar6" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/chandrasekar-pinninti" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:chandrasekharpinninti96@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
